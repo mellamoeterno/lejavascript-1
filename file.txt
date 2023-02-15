@@ -1,0 +1,6 @@
+console.log()
+The console.log() method outputs a message to the web console. 
+
+assigning the value of one variable to another
+
+
