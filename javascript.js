@@ -8,3 +8,4 @@ b = a;
 
 console.log("var b");
 
+//abctest
