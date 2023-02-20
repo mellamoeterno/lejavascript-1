@@ -49,3 +49,7 @@ This will return the length and with the math  will output the desired letter, t
 Const myStr = 'midic'
 Const var = secondLetter[1]
 
+----
+
+
+
