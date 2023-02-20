@@ -1,6 +1,51 @@
-console.log()
-The console.log() method outputs a message to the web console. 
+The bucket assigning, is actually just assigning one variable to another: 
 
-assigning the value of one variable to another
+var a = 5;
+var b = 10;
+var c = "i am a";
 
+a = a + 1;
+b = b + 5;
+c = c + " string!";
+
+console.log(a, b, c);
+
+Output is: 6 / 15 / "I am a string" 
+
+-----
+
+Redeclaring a variable:
+
+var n;
+
+var n;
+
+The variable var can be redeclared
+
+----
+
+const has all the awesome features that let has, with the added bonus that variables declared using const are read-only. They are a constant value, which means that once a variable is assigned with const, it cannot be reassigned:
+
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
+The console will display an error due to reassigning the value of FAV_PET.
+
+The console will display an error, due to reassigning the value of FAV_PET.
+
+----
+
+Remainder/modulo usage is just for checking a odd number of something really, on anything seems like.
+
+
+----
+
+Using bracket notation to find the last character in the string you can also use .length - 1:
+Const myStr = 'midick';
+Const firstletter = firstletter[midick.lenght -5];
+
+This will return the length and with the math  will output the desired letter, the first letter "m".
+
+ when using a bracket notation to look to an data. Instead of just the normal for eg: 
+Const myStr = 'midic'
+Const var = secondLetter[1]
 
